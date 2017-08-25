@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="eng-us">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="project1.css">
+  <title>Project 2</title>
+</head>
+<body>
+<div class="main">
+  <h1 id="iq"><u>MY NOTES</u></h1>
+ <div class="head">                                 <!-- first main devision or big box which will end at the end of my webpage and given class="head" for apllying css properties-->
+    <h2 id="abc"><u>CH-1:SOME BASIC CONCEPTS</u></h2> <!--This is the main heading of my webpage where further it is divided into subheadings and i have given this an id named as "abc"   -->
+    <div class="box">                            <!--Another division inside which heading and further content will be written -->
+        <div class="heading">                       <!-- division inside which subheading is written -->
+          <h3>VOID TAGS</h3>                          <!-- first subheading -->
+        </div>
+        <P class="description">                  <!-- Another division in which the content is written relatind to the subheading-->
+          Tags which doesnt have a / at the end of tag are known as void tag<br>
+        </P>
+    </div>
+    <div class="box">
+       <div class="heading">                           <!-- division gives class name as "heading" for doing further style in css file-->
+        <h3>BASIC HTML ELEMENTS</h3>
+       </div>
+       <P class="description">                      <!-- division gives class name as "description" for doing further style in css file-->
+       Most HTML elements consist of an opening and a closing tag with some content between them.
+       </P>
+    </div>
+    <div class="box">
+       <div class="heading">
+        <h3>HTML ATTRIBUTES</h3>
+       </div>
+       <P class="description">
+        <a href="url">link</a> Creates a hyperlink to the href attribute value url and names it link<br>   <!-- linking another website to my webpage using anchor tag-->
+        <img src="smiley.jpg" alt="text" width="30" height="30">it will display image here otherwise text will be shows whic is written in "alt".<br>  <!-- smiley image is shown and size is defined -->
+      </P>
+    </div>
+    <div class="box">
+      <div class="heading">
+        <h3>SOME MORE HTML ELEMENTS</h3>
+      </div>
+      <div class="description">
+       <ol type="1">                            <!-- here list is being used to understand better -->
+        <li> p tag  Defines a <em>paragraph</em>.</li>   <!-- em tag is used make a word diff. from the other sentence -->
+        <li>br tag Creates a <b>line break</b>.</li>     <!-- bold is used to put attention to particular word-->
+        <li>div tag  Creates a <em>"box"</em> container element.</li>
+        <li>span tag Creates an <b>"inline"</b> container element.</li>
+       </ol>
+     </div>
+    </div>
+    <div class="box">
+       <div class="heading">
+        <h3>BLOCK</h3>
+       </div>
+       <P class="description">
+         These tags creates a seperate paragraph or block.<br>
+         ex- <b><em>hello udacity</em></b> is simply written and <b><em>hello my name is anku</em></b> is written inside paragraph tag<br><br>
+         Output of the above will be:<b>"hello udacity"</b> in one line and <b>"hello my name is anku"</b> will be in the next line.
+         in this way it creates a block around that particular sentence so that you can add more sentences as per the requirment.<br>
+      </P>
+    </div>
+    <div class="box">
+      <div class="heading">
+        <h3>INLINE</h3>
+      </div>
+     <P class="description">
+       These are the tags used in  a sentece.<br>
+     </P>
+    </div>
+ </div>
+ <div class="head">
+  <h2 id="cde"><u>CH-2:CREATING A STRUCUTRED DOCUMENT</u></h2>   <!-- chapter 2- describing bout creating structures-->
+
+    <div class="box">
+       <div class="heading">
+         <h3>TREE LIKE STRUCTURES:</h3>
+       </div>
+       <P class="description">
+         The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. You can draw this relationship like a family tree. My mother had multiple children. So did her mother, and so on....<br>
+         In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...<br>
+      </P>
+    </div>
+    <div class="box">
+      <div class="heading">
+        <h3>THE RELATIONSHIP BETWEEN INDENTED HTML AND BOXES</h3>
+      </div>
+      <P class="description">
+        When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested its corresponding "box" is.
+      </P>
+    </div>
+    <div class="box">
+      <div class="heading">
+        <h3>TEXT EDITORS (for programming)</h3>
+      </div>
+      <P class="description">
+        When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+      </P>
+    </div>
+ </div>
+ <div class="head">
+    <h2 id="efg"><u>CH-3:CSS(CASCADING STYLE SHEET)</u></h2>
+     <div class="box">
+       <div class="heading">
+         <h3>AVOIDING REPETITION</h3>
+       </div>
+       <P class="description">
+         Avoiding repetition is important for a variety of reasons.<br>
+         <b>Avoiding Errors:</b>When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.
+       </P>
+     </div>
+     <div class="box">
+       <div class="heading">
+         <h3>CSS</h3>
+       </div>
+       <P class="description">
+         CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.
+       </P>
+    </div>
+    <div class="box">
+       <div class="heading">
+        <h3>CODING RESOURCES</h3>
+       </div>
+       <P class="description">
+        The following coding resource will help me learn to "think like a programmer":<br>
+        <a href="http://www.udacity.com">UDACITY</a>:From the Udacity homepage I can access lots of classes to help me on my journey, including the Intro to Programming Nanodegree program! I can find lots of support under the "Resources" tab of my Nanodegree program  <!-- when you click udacity it will open the website udacity.com-->
+      </P>
+    </div>
+</div>
+</div>
+</body>
+</html>

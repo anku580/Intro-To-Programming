@@ -1,0 +1,49 @@
+.head {                            /* class named as head : text inside this will be coloured as white   */
+  color:white;
+  background-color:#aeecdd ;      /* background color would be mention as the color code   */
+  padding-top: 2px;               /*padding gives the space around the word or sentence    */
+}
+
+.heading {                       /*   class named as heading would get updates by following properties written inside it */
+   font-size: 20px;
+   color: red;
+   margin: 0px 10px 5px 10px;              /*   margin provides the border around the class named as heading */
+   background-color: #294860;
+   padding-bottom: 3px;
+   padding-top: 3px;
+}
+
+.description {                   /*  class named as description  */
+  font-size: 20px;
+  color: black;
+  background-color: #befc93;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: oblique;       /*  changes style of the text  */
+  margin: 0px 10px 0px 10px;
+}
+
+#abc {
+  font-size: 30px;
+  text-align: center;
+}
+
+#cde {
+  font-size: 30px;
+  text-align: center;
+}
+
+#efg {
+  font-size: 30px;
+  text-align: center;
+}
+
+.main {
+  font-size: 35px;
+  background-color: #b8c9fc;
+  padding-top: 3px;
+}
+
+#iq {
+  text-align: center;
+}
